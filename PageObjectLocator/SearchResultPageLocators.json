@@ -1,0 +1,19 @@
+{
+	"SELECT_Nth_RESULT": {
+		"xpath": "//*[@id='result_{0}']//img"
+
+	},
+	"SELECT_RESULT": {
+		"xpath": "//*[@class='s-result-list sg-row']/div[@data-index='{0}']//*[@class='a-section aok-relative s-image-fixed-height']"
+	},
+	"IMAGE_TAG": {
+		"tag": "img"
+	},
+	"SEARCH_CATEGORY": {
+		"xpath": "//*[@class='nav-a nav-b']"
+	},
+	"SEARCH_TEXT": {
+		"xpath": "//*[@class='a-color-state a-text-bold' and contains(text(),'data catalog')]"
+	}
+
+}

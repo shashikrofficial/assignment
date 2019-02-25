@@ -1,0 +1,641 @@
+1551087941815	geckodriver	INFO	geckodriver 0.21.0
+1551087941828	geckodriver	INFO	Listening on 127.0.0.1:63764
+1551102368379	geckodriver	INFO	geckodriver 0.21.0
+1551102368389	geckodriver	INFO	Listening on 127.0.0.1:59003
+1551102372405	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/qj/q7x010pn4n16j6jf26m7wnkm0000gp/T/rust_mozprofile.4uMBYpGVpasd"
+1551102373310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551102373310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551102373506	Marionette	TRACE	Received observer notification profile-after-change
+1551102373637	Marionette	TRACE	Received observer notification command-line-startup
+1551102373637	Marionette	TRACE	Received observer notification nsPref:changed
+1551102373637	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1551102373863	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1551102375058	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1551102375058	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1551102375335	Marionette	TRACE	All scripts recorded.
+1551102375335	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1551102375336	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1551102375336	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1551102375336	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1551102375337	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1551102375338	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1551102375339	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1551102375339	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1551102375339	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1551102375339	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1551102375339	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1551102375340	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1551102375340	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1551102375341	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1551102375341	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1551102375341	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1551102375341	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1551102375341	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1551102375342	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1551102375342	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1551102375342	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1551102375342	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1551102375342	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1551102375343	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1551102375343	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1551102375343	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1551102375343	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1551102375402	Marionette	INFO	Listening on port 59012
+1551102375402	Marionette	DEBUG	Remote service is active
+1551102375449	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59029
+1551102375460	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1551102375461	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551102375523	Marionette	TRACE	[4294967297] Frame script loaded
+1551102375561	Marionette	TRACE	[4294967297] Frame script registered
+1551102375568	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"0d813af2-a8b4-384f-991d-ead553ca16cf","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1551102375578	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102375586	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1551102376010	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1551102376837	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102379426	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102379429	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1551102379445	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":15000}]
+1551102379446	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1551102379474	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102380826	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102381582	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102381588	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102381934	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102381935	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102382599	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102382635	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102382642	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1551102382651	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1551102382652	Marionette	DEBUG	0 <- [1,5,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102382657	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetCurrentURL",{}]
+1551102382660	Marionette	DEBUG	0 <- [1,6,null,{"value":"https://www.amazon.com/"}]
+1551102382679	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102382762	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102383140	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102383143	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102384917	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102385361	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102385363	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1551102385368	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetTitle",{}]
+1551102385369	Marionette	DEBUG	0 <- [1,8,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102385373	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetCurrentURL",{}]
+1551102385375	Marionette	DEBUG	0 <- [1,9,null,{"value":"https://www.amazon.com/"}]
+1551102385382	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102385423	Marionette	DEBUG	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"06d93bbd-b233-504b-923b-a16dcf583a30"}]]
+1551102385428	Marionette	DEBUG	0 -> [0,11,"WebDriver:GetElementText",{"id":"06d93bbd-b233-504b-923b-a16dcf583a30"}]
+1551102385587	Marionette	DEBUG	0 <- [1,11,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102385590	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102385598	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"06d93bbd-b233-504b-923b-a16dcf583a30"}}]
+1551102385601	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"element":"06d93bbd-b233-504b-923b-a16dcf583a30","using":"xpath","value":".."}]
+1551102385704	Marionette	DEBUG	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6685a959-e2f1-fb47-8e89-66f34eec6dce"}}]
+1551102385712	Marionette	DEBUG	0 -> [0,14,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6685a959-e2f1-fb47-8e89-66f34eec6dce","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102385766	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1551102385771	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102385801	Marionette	DEBUG	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"06d93bbd-b233-504b-923b-a16dcf583a30"}}]
+1551102385803	Marionette	DEBUG	0 -> [0,16,"WebDriver:GetElementTagName",{"id":"06d93bbd-b233-504b-923b-a16dcf583a30"}]
+1551102386009	Marionette	DEBUG	0 <- [1,16,null,{"value":"select"}]
+1551102386013	Marionette	DEBUG	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"06d93bbd-b233-504b-923b-a16dcf583a30","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102386332	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1551102386340	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElements",{"element":"06d93bbd-b233-504b-923b-a16dcf583a30","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102386392	Marionette	DEBUG	0 <- [1,18,null,[{"element-6066-11e4-a52e-4f735466cecf":"834cbd89-ff46-0c4f-8753-beceba1ac92d"}]]
+1551102386395	Marionette	DEBUG	0 -> [0,19,"WebDriver:IsElementSelected",{"id":"834cbd89-ff46-0c4f-8753-beceba1ac92d"}]
+1551102386434	Marionette	DEBUG	0 <- [1,19,null,{"value":false}]
+1551102386437	Marionette	DEBUG	0 -> [0,20,"WebDriver:ElementClick",{"id":"834cbd89-ff46-0c4f-8753-beceba1ac92d"}]
+1551102386452	Marionette	DEBUG	0 <- [1,20,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102386775	Marionette	DEBUG	0 -> [0,21,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102386781	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102387714	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102387714	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102388015	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102388015	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102388015	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102389106	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102389520	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102389525	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1551102389544	Marionette	DEBUG	0 -> [0,22,"WebDriver:GetTitle",{}]
+1551102389549	Marionette	DEBUG	0 <- [1,22,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102389563	Marionette	DEBUG	0 -> [0,23,"WebDriver:GetCurrentURL",{}]
+1551102389565	Marionette	DEBUG	0 <- [1,23,null,{"value":"https://www.amazon.com/"}]
+1551102389569	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102389583	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"3ed7faed-03ff-3041-89d3-32102af2d071"}]]
+1551102389586	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetElementText",{"id":"3ed7faed-03ff-3041-89d3-32102af2d071"}]
+1551102389771	Marionette	DEBUG	0 <- [1,25,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102389776	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102389808	Marionette	DEBUG	0 <- [1,26,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3ed7faed-03ff-3041-89d3-32102af2d071"}}]
+1551102389813	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"element":"3ed7faed-03ff-3041-89d3-32102af2d071","using":"xpath","value":".."}]
+1551102389887	Marionette	DEBUG	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"50b2f722-30c4-024e-9549-1a77d6f9b2a4"}}]
+1551102389902	Marionette	DEBUG	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"50b2f722-30c4-024e-9549-1a77d6f9b2a4","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102389978	Marionette	DEBUG	0 <- [1,28,null,{"value":null}]
+1551102389982	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102389992	Marionette	DEBUG	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3ed7faed-03ff-3041-89d3-32102af2d071"}}]
+1551102389996	Marionette	DEBUG	0 -> [0,30,"WebDriver:GetElementTagName",{"id":"3ed7faed-03ff-3041-89d3-32102af2d071"}]
+1551102390025	Marionette	DEBUG	0 <- [1,30,null,{"value":"select"}]
+1551102390033	Marionette	DEBUG	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"3ed7faed-03ff-3041-89d3-32102af2d071","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102390059	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1551102390062	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElements",{"element":"3ed7faed-03ff-3041-89d3-32102af2d071","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102390067	Marionette	DEBUG	0 <- [1,32,null,[{"element-6066-11e4-a52e-4f735466cecf":"6ddea9e5-25e0-2e42-9628-513f53609655"}]]
+1551102390070	Marionette	DEBUG	0 -> [0,33,"WebDriver:IsElementSelected",{"id":"6ddea9e5-25e0-2e42-9628-513f53609655"}]
+1551102390076	Marionette	DEBUG	0 <- [1,33,null,{"value":false}]
+1551102390079	Marionette	DEBUG	0 -> [0,34,"WebDriver:ElementClick",{"id":"6ddea9e5-25e0-2e42-9628-513f53609655"}]
+1551102390116	Marionette	DEBUG	0 <- [1,34,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102390409	Marionette	DEBUG	0 -> [0,35,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102390420	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102390750	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102390751	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102391235	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102391235	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102391235	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102392994	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102393022	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102393023	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1551102393026	Marionette	DEBUG	0 -> [0,36,"WebDriver:GetTitle",{}]
+1551102393027	Marionette	DEBUG	0 <- [1,36,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102393034	Marionette	DEBUG	0 -> [0,37,"WebDriver:GetCurrentURL",{}]
+1551102393034	Marionette	DEBUG	0 <- [1,37,null,{"value":"https://www.amazon.com/"}]
+1551102393037	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102393163	Marionette	DEBUG	0 <- [1,38,null,[{"element-6066-11e4-a52e-4f735466cecf":"82610559-8c6b-cc40-a44a-0409f4e7fa07"}]]
+1551102393166	Marionette	DEBUG	0 -> [0,39,"WebDriver:GetElementText",{"id":"82610559-8c6b-cc40-a44a-0409f4e7fa07"}]
+1551102393385	Marionette	DEBUG	0 <- [1,39,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102393387	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102393473	Marionette	DEBUG	0 <- [1,40,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"82610559-8c6b-cc40-a44a-0409f4e7fa07"}}]
+1551102393476	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElement",{"element":"82610559-8c6b-cc40-a44a-0409f4e7fa07","using":"xpath","value":".."}]
+1551102393526	Marionette	DEBUG	0 <- [1,41,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"55640297-b30d-c149-a92d-cb789c7f142f"}}]
+1551102393535	Marionette	DEBUG	0 -> [0,42,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"55640297-b30d-c149-a92d-cb789c7f142f","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102393552	Marionette	DEBUG	0 <- [1,42,null,{"value":null}]
+1551102393558	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102393894	Marionette	DEBUG	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"82610559-8c6b-cc40-a44a-0409f4e7fa07"}}]
+1551102393899	Marionette	DEBUG	0 -> [0,44,"WebDriver:GetElementTagName",{"id":"82610559-8c6b-cc40-a44a-0409f4e7fa07"}]
+1551102393928	Marionette	DEBUG	0 <- [1,44,null,{"value":"select"}]
+1551102393940	Marionette	DEBUG	0 -> [0,45,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"82610559-8c6b-cc40-a44a-0409f4e7fa07","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102394012	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1551102394014	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElements",{"element":"82610559-8c6b-cc40-a44a-0409f4e7fa07","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102394077	Marionette	DEBUG	0 <- [1,46,null,[{"element-6066-11e4-a52e-4f735466cecf":"fdcd2a2c-676a-d942-982f-2b36e20d9e61"}]]
+1551102394080	Marionette	DEBUG	0 -> [0,47,"WebDriver:IsElementSelected",{"id":"fdcd2a2c-676a-d942-982f-2b36e20d9e61"}]
+1551102394105	Marionette	DEBUG	0 <- [1,47,null,{"value":false}]
+1551102394107	Marionette	DEBUG	0 -> [0,48,"WebDriver:ElementClick",{"id":"fdcd2a2c-676a-d942-982f-2b36e20d9e61"}]
+1551102394152	Marionette	DEBUG	0 <- [1,48,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102394281	Marionette	DEBUG	0 -> [0,49,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1551102394281	Marionette	INFO	Stopped listening on port 59012
+1551102394354	Marionette	DEBUG	0 <- [1,49,null,{"cause":"shutdown"}]
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+1551102394464	Marionette	DEBUG	0 -> [0,50,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1551102394464	Marionette	DEBUG	0 <- [1,50,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1551102394471	Marionette	DEBUG	Closed connection 0
+1551102394585	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1551102394586	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1551102394586	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1551102394586	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1551102394586	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1551102394586	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1551102394587	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1551102394587	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1551102394587	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1551102394587	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1551102394588	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1551102394588	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1551102394588	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1551102394588	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1551102394589	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1551102394589	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1551102394589	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1551102394589	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1551102394589	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1551102394589	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1551102394590	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1551102394590	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1551102394590	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1551102394590	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1551102394590	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1551102394590	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1551102394590	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1551102394590	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1551102394591	Marionette	DEBUG	Remote service is inactive
+1551102431174	geckodriver	INFO	geckodriver 0.21.0
+1551102431183	geckodriver	INFO	Listening on 127.0.0.1:59075
+1551102435192	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/qj/q7x010pn4n16j6jf26m7wnkm0000gp/T/rust_mozprofile.P2PLlrA6WwJX"
+1551102435984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551102435985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551102436177	Marionette	TRACE	Received observer notification profile-after-change
+1551102436364	Marionette	TRACE	Received observer notification command-line-startup
+1551102436364	Marionette	TRACE	Received observer notification nsPref:changed
+1551102436365	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1551102436583	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1551102437717	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1551102437717	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1551102438022	Marionette	TRACE	All scripts recorded.
+1551102438022	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1551102438023	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1551102438023	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1551102438023	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1551102438023	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1551102438024	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1551102438025	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1551102438025	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1551102438026	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1551102438026	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1551102438026	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1551102438026	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1551102438027	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1551102438028	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1551102438028	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1551102438028	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1551102438028	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1551102438028	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1551102438029	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1551102438029	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1551102438029	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1551102438030	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1551102438030	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1551102438030	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1551102438030	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1551102438030	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1551102438030	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1551102438086	Marionette	INFO	Listening on port 59084
+1551102438086	Marionette	DEBUG	Remote service is active
+1551102438135	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59101
+1551102438138	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1551102438139	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551102438199	Marionette	TRACE	[4294967297] Frame script loaded
+1551102438210	Marionette	TRACE	[4294967297] Frame script registered
+1551102438219	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"2d115085-81f0-db4b-b7ea-37187a1964fa","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1551102438228	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102438236	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1551102438631	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1551102440497	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102441838	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102441856	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1551102441870	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":15000}]
+1551102441872	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1551102441879	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102443251	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102443968	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102443972	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102444314	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102444314	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102445044	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102445444	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102445446	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1551102445451	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1551102445452	Marionette	DEBUG	0 <- [1,5,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102445455	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetCurrentURL",{}]
+1551102445456	Marionette	DEBUG	0 <- [1,6,null,{"value":"https://www.amazon.com/"}]
+1551102445476	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102445534	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102445923	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102445925	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102447162	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102447785	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102447787	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1551102447795	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetTitle",{}]
+1551102447796	Marionette	DEBUG	0 <- [1,8,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102447799	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetCurrentURL",{}]
+1551102447801	Marionette	DEBUG	0 <- [1,9,null,{"value":"https://www.amazon.com/"}]
+1551102447806	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102447893	Marionette	DEBUG	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7"}]]
+1551102447901	Marionette	DEBUG	0 -> [0,11,"WebDriver:GetElementText",{"id":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7"}]
+1551102448102	Marionette	DEBUG	0 <- [1,11,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102448106	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102448114	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7"}}]
+1551102448117	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"element":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7","using":"xpath","value":".."}]
+1551102448155	Marionette	DEBUG	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d5364fd1-b6fa-7941-8750-602d2d53ebb4"}}]
+1551102448161	Marionette	DEBUG	0 -> [0,14,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d5364fd1-b6fa-7941-8750-602d2d53ebb4","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102448201	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1551102448205	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102448261	Marionette	DEBUG	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7"}}]
+1551102448264	Marionette	DEBUG	0 -> [0,16,"WebDriver:GetElementTagName",{"id":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7"}]
+1551102448375	Marionette	DEBUG	0 <- [1,16,null,{"value":"select"}]
+1551102448393	Marionette	DEBUG	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102448684	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1551102448697	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElements",{"element":"eb4eba90-2cdb-b247-9eaf-4c9766ddd8a7","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102448751	Marionette	DEBUG	0 <- [1,18,null,[{"element-6066-11e4-a52e-4f735466cecf":"fca96e9c-97a0-244d-af3e-2fefcdcbc9ed"}]]
+1551102448759	Marionette	DEBUG	0 -> [0,19,"WebDriver:IsElementSelected",{"id":"fca96e9c-97a0-244d-af3e-2fefcdcbc9ed"}]
+1551102448822	Marionette	DEBUG	0 <- [1,19,null,{"value":false}]
+1551102448825	Marionette	DEBUG	0 -> [0,20,"WebDriver:ElementClick",{"id":"fca96e9c-97a0-244d-af3e-2fefcdcbc9ed"}]
+1551102448842	Marionette	DEBUG	0 <- [1,20,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102449158	Marionette	DEBUG	0 -> [0,21,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102449162	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102450101	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102450101	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102450434	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102450435	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102450435	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102451089	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102451642	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102451643	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1551102451648	Marionette	DEBUG	0 -> [0,22,"WebDriver:GetTitle",{}]
+1551102451650	Marionette	DEBUG	0 <- [1,22,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102451670	Marionette	DEBUG	0 -> [0,23,"WebDriver:GetCurrentURL",{}]
+1551102451671	Marionette	DEBUG	0 <- [1,23,null,{"value":"https://www.amazon.com/"}]
+1551102451686	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102451736	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6"}]]
+1551102451739	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetElementText",{"id":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6"}]
+1551102451892	Marionette	DEBUG	0 <- [1,25,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102451895	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102451948	Marionette	DEBUG	0 <- [1,26,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6"}}]
+1551102451952	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"element":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6","using":"xpath","value":".."}]
+1551102451973	Marionette	DEBUG	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8a813c49-7a2b-9b4d-9ccc-32a2ee57ce62"}}]
+1551102451975	Marionette	DEBUG	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"8a813c49-7a2b-9b4d-9ccc-32a2ee57ce62","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102451998	Marionette	DEBUG	0 <- [1,28,null,{"value":null}]
+1551102452006	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102452053	Marionette	DEBUG	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6"}}]
+1551102452062	Marionette	DEBUG	0 -> [0,30,"WebDriver:GetElementTagName",{"id":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6"}]
+1551102452071	Marionette	DEBUG	0 <- [1,30,null,{"value":"select"}]
+1551102452077	Marionette	DEBUG	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102452118	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1551102452123	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElements",{"element":"1e9eabdd-42fa-ca48-809e-2eaf4c10c2a6","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102452135	Marionette	DEBUG	0 <- [1,32,null,[{"element-6066-11e4-a52e-4f735466cecf":"c6f082cd-de05-b148-bb8d-ce641e36de2d"}]]
+1551102452141	Marionette	DEBUG	0 -> [0,33,"WebDriver:IsElementSelected",{"id":"c6f082cd-de05-b148-bb8d-ce641e36de2d"}]
+1551102452163	Marionette	DEBUG	0 <- [1,33,null,{"value":false}]
+1551102452166	Marionette	DEBUG	0 -> [0,34,"WebDriver:ElementClick",{"id":"c6f082cd-de05-b148-bb8d-ce641e36de2d"}]
+1551102452177	Marionette	DEBUG	0 <- [1,34,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102452516	Marionette	DEBUG	0 -> [0,35,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102452535	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102452852	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102452853	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102453197	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102453197	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102453198	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102453801	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102454615	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102454616	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1551102454623	Marionette	DEBUG	0 -> [0,36,"WebDriver:GetTitle",{}]
+1551102454623	Marionette	DEBUG	0 <- [1,36,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102454632	Marionette	DEBUG	0 -> [0,37,"WebDriver:GetCurrentURL",{}]
+1551102454633	Marionette	DEBUG	0 <- [1,37,null,{"value":"https://www.amazon.com/"}]
+1551102454638	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102454647	Marionette	DEBUG	0 <- [1,38,null,[{"element-6066-11e4-a52e-4f735466cecf":"8e23aa74-99f4-734c-a448-4856d3c72450"}]]
+1551102454650	Marionette	DEBUG	0 -> [0,39,"WebDriver:GetElementText",{"id":"8e23aa74-99f4-734c-a448-4856d3c72450"}]
+1551102454787	Marionette	DEBUG	0 <- [1,39,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102454790	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102455001	Marionette	DEBUG	0 <- [1,40,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8e23aa74-99f4-734c-a448-4856d3c72450"}}]
+1551102455004	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElement",{"element":"8e23aa74-99f4-734c-a448-4856d3c72450","using":"xpath","value":".."}]
+1551102455244	Marionette	DEBUG	0 <- [1,41,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3eac9913-cf1b-4845-b468-0e7467e056a7"}}]
+1551102455262	Marionette	DEBUG	0 -> [0,42,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"3eac9913-cf1b-4845-b468-0e7467e056a7","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102455403	Marionette	DEBUG	0 <- [1,42,null,{"value":null}]
+1551102455407	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102455413	Marionette	DEBUG	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8e23aa74-99f4-734c-a448-4856d3c72450"}}]
+1551102455416	Marionette	DEBUG	0 -> [0,44,"WebDriver:GetElementTagName",{"id":"8e23aa74-99f4-734c-a448-4856d3c72450"}]
+1551102455435	Marionette	DEBUG	0 <- [1,44,null,{"value":"select"}]
+1551102455438	Marionette	DEBUG	0 -> [0,45,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"8e23aa74-99f4-734c-a448-4856d3c72450","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102455476	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1551102455479	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElements",{"element":"8e23aa74-99f4-734c-a448-4856d3c72450","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102455482	Marionette	DEBUG	0 <- [1,46,null,[{"element-6066-11e4-a52e-4f735466cecf":"38ff30d5-8acb-cd4c-b5b2-f0862cf8a0f9"}]]
+1551102455484	Marionette	DEBUG	0 -> [0,47,"WebDriver:IsElementSelected",{"id":"38ff30d5-8acb-cd4c-b5b2-f0862cf8a0f9"}]
+1551102455488	Marionette	DEBUG	0 <- [1,47,null,{"value":false}]
+1551102455490	Marionette	DEBUG	0 -> [0,48,"WebDriver:ElementClick",{"id":"38ff30d5-8acb-cd4c-b5b2-f0862cf8a0f9"}]
+1551102455500	Marionette	DEBUG	0 <- [1,48,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102455683	Marionette	DEBUG	0 -> [0,49,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1551102455684	Marionette	INFO	Stopped listening on port 59084
+1551102455752	Marionette	DEBUG	0 <- [1,49,null,{"cause":"shutdown"}]
+1551102455821	Marionette	DEBUG	0 -> [0,50,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1551102455822	Marionette	DEBUG	0 <- [1,50,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1551102455829	Marionette	DEBUG	Closed connection 0
+1551102455954	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1551102455954	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1551102455954	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1551102455954	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1551102455954	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1551102455955	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1551102455955	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1551102455955	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1551102455955	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1551102455956	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1551102455956	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1551102455956	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1551102455956	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1551102455957	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1551102455957	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1551102455957	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1551102455957	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1551102455957	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1551102455957	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1551102455957	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1551102455958	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1551102455958	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1551102455958	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1551102455958	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1551102455958	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1551102455958	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1551102455958	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1551102455958	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1551102455959	Marionette	DEBUG	Remote service is inactive
+1551102582785	geckodriver	INFO	geckodriver 0.21.0
+1551102582796	geckodriver	INFO	Listening on 127.0.0.1:59139
+1551102586802	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/qj/q7x010pn4n16j6jf26m7wnkm0000gp/T/rust_mozprofile.XzEAVRawUFCl"
+1551102587676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551102587676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551102587845	Marionette	TRACE	Received observer notification profile-after-change
+1551102588031	Marionette	TRACE	Received observer notification command-line-startup
+1551102588031	Marionette	TRACE	Received observer notification nsPref:changed
+1551102588031	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1551102588260	Marionette	TRACE	Received observer notification toplevel-window-ready
+Can't find symbol 'GetGraphicsResetStatus'.
+1551102589390	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1551102589390	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1551102589682	Marionette	TRACE	All scripts recorded.
+1551102589682	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1551102589683	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1551102589683	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1551102589683	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1551102589683	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1551102589684	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1551102589685	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1551102589686	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1551102589686	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1551102589686	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1551102589686	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1551102589687	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1551102589688	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1551102589688	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1551102589688	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1551102589688	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1551102589688	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1551102589688	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1551102589689	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1551102589689	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1551102589690	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1551102589690	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1551102589690	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1551102589690	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1551102589690	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1551102589690	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1551102589691	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1551102589748	Marionette	INFO	Listening on port 59148
+1551102589748	Marionette	DEBUG	Remote service is active
+1551102589753	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:59165
+1551102589755	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1551102589756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551102589819	Marionette	TRACE	[4294967297] Frame script loaded
+1551102589820	Marionette	TRACE	[4294967297] Frame script registered
+1551102589826	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e46be3cb-6b32-ea4c-81ce-fc441c2277c4","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1551102589831	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102589846	Marionette	TRACE	[4294967297] Received DOM event beforeunload for about:blank
+1551102591064	Marionette	TRACE	[4294967297] Received DOM event pagehide for about:blank
+1551102593127	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102595253	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102595257	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1551102595271	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"implicit":15000}]
+1551102595272	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1551102595281	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102595315	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102596907	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102596910	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102597451	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102597885	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102597887	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1551102597890	Marionette	DEBUG	0 -> [0,5,"WebDriver:GetTitle",{}]
+1551102597890	Marionette	DEBUG	0 <- [1,5,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102597893	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetCurrentURL",{}]
+1551102597894	Marionette	DEBUG	0 <- [1,6,null,{"value":"https://www.amazon.com/"}]
+1551102597905	Marionette	DEBUG	0 -> [0,7,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102598020	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102598463	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102598465	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102599112	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102599879	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102599881	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1551102599888	Marionette	DEBUG	0 -> [0,8,"WebDriver:GetTitle",{}]
+1551102599888	Marionette	DEBUG	0 <- [1,8,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102599891	Marionette	DEBUG	0 -> [0,9,"WebDriver:GetCurrentURL",{}]
+1551102599892	Marionette	DEBUG	0 <- [1,9,null,{"value":"https://www.amazon.com/"}]
+1551102599896	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102599995	Marionette	DEBUG	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"6aff8fd9-4268-a44e-b3a2-54f263921261"}]]
+1551102599999	Marionette	DEBUG	0 -> [0,11,"WebDriver:GetElementText",{"id":"6aff8fd9-4268-a44e-b3a2-54f263921261"}]
+1551102600229	Marionette	DEBUG	0 <- [1,11,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102600232	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102600297	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6aff8fd9-4268-a44e-b3a2-54f263921261"}}]
+1551102600302	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"element":"6aff8fd9-4268-a44e-b3a2-54f263921261","using":"xpath","value":".."}]
+1551102600356	Marionette	DEBUG	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6cb083cc-c421-3b43-b623-7acba827d193"}}]
+1551102600359	Marionette	DEBUG	0 -> [0,14,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6cb083cc-c421-3b43-b623-7acba827d193","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102600381	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1551102603890	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102603896	Marionette	DEBUG	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6aff8fd9-4268-a44e-b3a2-54f263921261"}}]
+1551102603904	Marionette	DEBUG	0 -> [0,16,"WebDriver:GetElementTagName",{"id":"6aff8fd9-4268-a44e-b3a2-54f263921261"}]
+1551102603909	Marionette	DEBUG	0 <- [1,16,null,{"value":"select"}]
+1551102603915	Marionette	DEBUG	0 -> [0,17,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6aff8fd9-4268-a44e-b3a2-54f263921261","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102603924	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1551102603928	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElements",{"element":"6aff8fd9-4268-a44e-b3a2-54f263921261","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102603934	Marionette	DEBUG	0 <- [1,18,null,[{"element-6066-11e4-a52e-4f735466cecf":"e8be76f5-59ba-d04e-87ce-b5ee97b0a018"}]]
+1551102603938	Marionette	DEBUG	0 -> [0,19,"WebDriver:IsElementSelected",{"id":"e8be76f5-59ba-d04e-87ce-b5ee97b0a018"}]
+1551102603946	Marionette	DEBUG	0 <- [1,19,null,{"value":false}]
+1551102603951	Marionette	DEBUG	0 -> [0,20,"WebDriver:ElementClick",{"id":"e8be76f5-59ba-d04e-87ce-b5ee97b0a018"}]
+1551102603968	Marionette	DEBUG	0 <- [1,20,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102604346	Marionette	DEBUG	0 -> [0,21,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102604349	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102604661	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102604662	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102604951	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102604952	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102604954	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102606308	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102606859	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102606862	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1551102606876	Marionette	DEBUG	0 -> [0,22,"WebDriver:GetTitle",{}]
+1551102606877	Marionette	DEBUG	0 <- [1,22,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102606882	Marionette	DEBUG	0 -> [0,23,"WebDriver:GetCurrentURL",{}]
+1551102606882	Marionette	DEBUG	0 <- [1,23,null,{"value":"https://www.amazon.com/"}]
+1551102606885	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102607048	Marionette	DEBUG	0 <- [1,24,null,[{"element-6066-11e4-a52e-4f735466cecf":"bfdf78f9-7a5d-2b46-918e-25213868c1ee"}]]
+1551102607054	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetElementText",{"id":"bfdf78f9-7a5d-2b46-918e-25213868c1ee"}]
+1551102607274	Marionette	DEBUG	0 <- [1,25,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102607279	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102607301	Marionette	DEBUG	0 <- [1,26,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bfdf78f9-7a5d-2b46-918e-25213868c1ee"}}]
+1551102607304	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"element":"bfdf78f9-7a5d-2b46-918e-25213868c1ee","using":"xpath","value":".."}]
+1551102607471	Marionette	DEBUG	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8e2a0090-ee18-db49-bc52-44457b0048f3"}}]
+1551102607474	Marionette	DEBUG	0 -> [0,28,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"8e2a0090-ee18-db49-bc52-44457b0048f3","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102607511	Marionette	DEBUG	0 <- [1,28,null,{"value":null}]
+1551102610521	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102610552	Marionette	DEBUG	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bfdf78f9-7a5d-2b46-918e-25213868c1ee"}}]
+1551102610561	Marionette	DEBUG	0 -> [0,30,"WebDriver:GetElementTagName",{"id":"bfdf78f9-7a5d-2b46-918e-25213868c1ee"}]
+1551102610573	Marionette	DEBUG	0 <- [1,30,null,{"value":"select"}]
+1551102610580	Marionette	DEBUG	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bfdf78f9-7a5d-2b46-918e-25213868c1ee","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102610593	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1551102610597	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElements",{"element":"bfdf78f9-7a5d-2b46-918e-25213868c1ee","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102610621	Marionette	DEBUG	0 <- [1,32,null,[{"element-6066-11e4-a52e-4f735466cecf":"6854f82a-5281-164c-89ab-8b7c17cec875"}]]
+1551102610627	Marionette	DEBUG	0 -> [0,33,"WebDriver:IsElementSelected",{"id":"6854f82a-5281-164c-89ab-8b7c17cec875"}]
+1551102610649	Marionette	DEBUG	0 <- [1,33,null,{"value":false}]
+1551102610654	Marionette	DEBUG	0 -> [0,34,"WebDriver:ElementClick",{"id":"6854f82a-5281-164c-89ab-8b7c17cec875"}]
+1551102610677	Marionette	DEBUG	0 <- [1,34,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551102610965	Marionette	DEBUG	0 -> [0,35,"WebDriver:Navigate",{"url":"https://www.amazon.com/"}]
+1551102610969	Marionette	TRACE	[4294967297] Received DOM event beforeunload for https://www.amazon.com/
+1551102611287	Marionette	TRACE	[4294967297] Received DOM event pagehide for https://www.amazon.com/
+1551102611288	Marionette	TRACE	[4294967297] Received DOM event unload for https://www.amazon.com/
+1551102611639	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102611640	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102611640	Marionette	TRACE	[4294967297] Received observer notification outer-window-destroyed
+1551102612273	Marionette	TRACE	[4294967297] Received DOM event DOMContentLoaded for https://www.amazon.com/
+1551102613208	Marionette	TRACE	[4294967297] Received DOM event pageshow for https://www.amazon.com/
+1551102613210	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1551102613216	Marionette	DEBUG	0 -> [0,36,"WebDriver:GetTitle",{}]
+1551102613216	Marionette	DEBUG	0 <- [1,36,null,{"value":"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more"}]
+1551102613220	Marionette	DEBUG	0 -> [0,37,"WebDriver:GetCurrentURL",{}]
+1551102613222	Marionette	DEBUG	0 <- [1,37,null,{"value":"https://www.amazon.com/"}]
+1551102613229	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElements",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102613291	Marionette	DEBUG	0 <- [1,38,null,[{"element-6066-11e4-a52e-4f735466cecf":"604120b4-268f-974e-bbbd-abc2d724b241"}]]
+1551102613294	Marionette	DEBUG	0 -> [0,39,"WebDriver:GetElementText",{"id":"604120b4-268f-974e-bbbd-abc2d724b241"}]
+1551102613536	Marionette	DEBUG	0 <- [1,39,null,{"value":"All Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nComputers\nDigital Musi ... s & TV\nMusic, CDs & Vinyl\nPet Supplies\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games"}]
+1551102613539	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102613646	Marionette	DEBUG	0 <- [1,40,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"604120b4-268f-974e-bbbd-abc2d724b241"}}]
+1551102613652	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElement",{"element":"604120b4-268f-974e-bbbd-abc2d724b241","using":"xpath","value":".."}]
+1551102613721	Marionette	DEBUG	0 <- [1,41,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9f37b7cd-c744-b84c-9190-37643c4b9cc8"}}]
+1551102613724	Marionette	DEBUG	0 -> [0,42,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"9f37b7cd-c744-b84c-9190-37643c4b9cc8","element-6066-11e4-a52e-4f735466ce ... ,"newSandbox":false,"script":"arguments[0].setAttribute('style', arguments[1]);","scriptTimeout":null,"specialPowers":false}]
+1551102613804	Marionette	DEBUG	0 <- [1,42,null,{"value":null}]
+1551102616810	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"using":"xpath","value":"//*[@class='nav-search-dropdown searchSelect']"}]
+1551102616815	Marionette	DEBUG	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"604120b4-268f-974e-bbbd-abc2d724b241"}}]
+1551102616817	Marionette	DEBUG	0 -> [0,44,"WebDriver:GetElementTagName",{"id":"604120b4-268f-974e-bbbd-abc2d724b241"}]
+1551102616828	Marionette	DEBUG	0 <- [1,44,null,{"value":"select"}]
+1551102616832	Marionette	DEBUG	0 -> [0,45,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"604120b4-268f-974e-bbbd-abc2d724b241","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1551102616839	Marionette	DEBUG	0 <- [1,45,null,{"value":null}]
+1551102616841	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElements",{"element":"604120b4-268f-974e-bbbd-abc2d724b241","using":"xpath","value":".//option[normalize-space(.) = \"Books\"]"}]
+1551102616943	Marionette	DEBUG	0 <- [1,46,null,[{"element-6066-11e4-a52e-4f735466cecf":"bc507b7f-b7ea-4041-b500-0f6fa2eb437d"}]]
+1551102616952	Marionette	DEBUG	0 -> [0,47,"WebDriver:IsElementSelected",{"id":"bc507b7f-b7ea-4041-b500-0f6fa2eb437d"}]
+1551102617005	Marionette	DEBUG	0 <- [1,47,null,{"value":false}]
+1551102617008	Marionette	DEBUG	0 -> [0,48,"WebDriver:ElementClick",{"id":"bc507b7f-b7ea-4041-b500-0f6fa2eb437d"}]
+1551102617047	Marionette	DEBUG	0 <- [1,48,{"error":"element not interactable","message":"Element <option> could not be scrolled into view","stacktrace":"WebDrive ... avigate@chrome://marionette/content/listener.js:410:13\nclickElement@chrome://marionette/content/listener.js:1210:5\n"},null]
+1551102617205	Marionette	DEBUG	0 -> [0,49,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1551102617207	Marionette	INFO	Stopped listening on port 59148
+1551102617336	Marionette	DEBUG	0 <- [1,49,null,{"cause":"shutdown"}]
+1551102617455	Marionette	DEBUG	0 -> [0,50,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1551102617456	Marionette	DEBUG	0 <- [1,50,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1551102617459	Marionette	DEBUG	Closed connection 0
+[Child 69619, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+[Child 69619, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+1551102617590	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1551102617590	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1551102617591	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1551102617591	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1551102617591	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1551102617591	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1551102617592	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1551102617593	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1551102617593	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1551102617593	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1551102617593	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1551102617593	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1551102617593	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1551102617594	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1551102617594	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1551102617594	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1551102617594	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1551102617594	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1551102617594	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1551102617594	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1551102617594	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1551102617594	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1551102617595	Marionette	DEBUG	Remote service is inactive

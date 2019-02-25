@@ -1,0 +1,2 @@
+BROWSER='Chrome'
+LONG_WAIT=15

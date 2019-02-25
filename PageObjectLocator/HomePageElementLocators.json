@@ -1,0 +1,14 @@
+{
+	"SEARCH_DROP_DOWN": {
+		"xpath": "//*[@class='nav-search-dropdown searchSelect']",
+		"class": "nav-search-dropdown searchSelect"
+
+	},
+	"SEARCH_BOX": {
+		"id": "twotabsearchtextbox"
+	},
+	"SEARCH_BUTTON": {
+		"xpath": "//*[@class='nav-input' and @type='submit']"
+	}
+
+}

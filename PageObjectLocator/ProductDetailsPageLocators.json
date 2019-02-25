@@ -1,0 +1,19 @@
+{
+	"BOOK_TITLE": {
+		"id": "productTitle"
+
+	},
+	"KINDLE_COST": {
+		"id": "mediaTab_heading_0"
+	},
+	"PAPERBACK_COST": {
+		"id": "mediaTab_heading_1"
+	},
+	"PRODUCT_DETAILS": {
+		"xpath": "//*[@id='productDetailsTable']/tbody/tr/td/div/ul"
+	},
+	"DETAILS": {
+		"xpath": "//*[@id='productDetailsTable']/tbody/tr/td/div/ul/li"
+	}
+
+}
