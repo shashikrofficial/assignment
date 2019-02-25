@@ -1,0 +1,6 @@
+[
+  "TestPackage/ExtractBookInfoAmazon/SearchBooks.py::AmazonBooksDetails::test_browser", 
+  "TestPackage/ExtractBookInfoAmazon/SearchBooks.py::AmazonBooksDetails::test_extract_all_info_of_the_product", 
+  "TestPackage/ExtractBookInfoAmazon/SearchBooks.py::AmazonBooksDetails::test_search_book", 
+  "TestPackage/ExtractBookInfoAmazon/SearchBooks.py::AmazonBooksDetails::test_select_nth_search_result"
+]
