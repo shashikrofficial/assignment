@@ -1,4 +1,4 @@
-py==1.5.4
+py==1.10.0
 pytest==3.6.3
 pytest-html==1.19.0
 pytest-metadata==1.7.0
